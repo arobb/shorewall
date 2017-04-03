@@ -1,0 +1,27 @@
+#SOURCE    DEST        POLICY      LOGLEVEL    LIMIT
+$FW        aqu         ACCEPT
+$FW        lock        ACCEPT
+$FW        lockg       ACCEPT
+$FW        net         ACCEPT INFO
+$FW        ivpn1       ACCEPT INFO
+$FW        ivpn2       ACCEPT INFO
+$FW        nord        ACCEPT
+
+lock       $FW         ACCEPT 
+aqu        $FW         ACCEPT INFO
+lockg      $FW         ACCEPT INFO
+
+lock       nord        ACCEPT
+lock       net         ACCEPT
+lock       aqu         ACCEPT
+aqu        lock        ACCEPT
+
+lock       lockg       ACCEPT
+lockg      lock        ACCEPT
+
+ivpn1      $FW         ACCEPT INFO
+ivpn1      net         ACCEPT
+ivpn1      aqu         ACCEPT INFO
+ivpn1      lockg       ACCEPT INFO
+
+all        all         REJECT      INFO

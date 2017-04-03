@@ -1,0 +1,2 @@
+#SOURCE            DEST      PROVIDER        PRIORITY
+eth0:192.168.11.0/24  0.0.0.0/0  VPN1  1000

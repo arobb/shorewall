@@ -1,0 +1,4 @@
+#ACTION SOURCE  DEST      PROTO      DPORT   SPORT   ORIGDEST
+ACCEPT  all     $FW       tcp        1194,1195
+ACCEPT  all     $FW       udp        1194,1195
+

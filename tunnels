@@ -1,0 +1,2 @@
+#openvpnserver:1194   net   0.0.0.0/0
+#openvpnserver:1195   net   192.168.11.1

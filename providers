@@ -1,0 +1,3 @@
+#NAME   NUMBER  MARK    DUPLICATE       INTERFACE       GATEWAY         OPTIONS          COPY
+ISP1    1       1       -               eth0            192.168.11.1    track            -
+VPN1    2       2       -               tun2            -               track            -

@@ -1,0 +1,4 @@
+#INTERFACE       SOURCE            ADDRESS
+tun2             192.168.11.0/24!192.168.11.1 &tun2
+eth0             172.30.30.0/24     &eth0
+eth0             172.30.31.0/24     &eth0

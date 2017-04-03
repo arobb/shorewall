@@ -1,0 +1,9 @@
+#ZONE   TYPE    OPTIONS                 IN                      OUT
+fw      firewall
+net     ipv4
+aqu     ipv4
+lockg   ipv4
+lock    ipv4
+ivpn1   ipv4
+ivpn2   ipv4
+nord    ipv4

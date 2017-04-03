@@ -1,0 +1,7 @@
+?FORMAT 2
+
+# ZONE   INTERFACE    OPTIONS
+-        eth0         dhcp,logmartians
+ivpn1    tun0         optional,routeback,logmartians
+ivpn2    tun1         optional,routeback,logmartians
+-        tun2         optional,dhcp,routefilter,tcpflags,logmartians
